@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 56;
 }
 p {
     text-align: center;
@@ -13,5 +14,19 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    width: 240;
   }
+.about_me {
+    color: rgba(129, 54, 34, 0.891);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.links
+{
+    color: rgb(36, 124, 47);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid rgb(50, 100, 90);
+}
