@@ -36,3 +36,25 @@ h2 {
    width:65px;
    margin: 22px;
 }
+nav{
+    width: screen;
+    height: 60px;
+    background-color: rgb(238, 238, 163);
+    border: 3px solid rgba(236, 173, 121, 0.924);
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.nav_button {
+    width: 50px;
+    height: 35px;
+    border:3px solid rgb(50, 100, 90);
+    border-radius: 20px;
+    background-color:rgba(73, 205, 205, 0.804);
+    margin: 10px;
+    float: left;
+    margin: right 50px;
+    padding: 2px;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
