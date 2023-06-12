@@ -51,8 +51,7 @@ nav{
     border:3px solid rgb(1, 1, 1);
     border-radius: 20px;
     background-color:rgb(255, 255, 255);
-    margin-right: 50px;
-    margin-left: 100px;
+    margin-left: 30%;
     margin-top: 10px;
     float: left;
     padding: 2px;
@@ -63,3 +62,4 @@ nav{
 body {
     background-color: beige;
 }
+
