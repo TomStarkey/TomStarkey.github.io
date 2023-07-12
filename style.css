@@ -1,14 +1,18 @@
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 56;
+    font-size: 55px;
+    color: rgb(90, 71, 2);
 }
+
 p {
   height: fit-content;
   font-size: 21px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 66%;
 }
+
 h2 {
     text-align: center;
 }
@@ -18,10 +22,12 @@ h2 {
     margin-right: auto;
     width: 50%;
   }
+
 .about_me {
     color: rgba(90, 42, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .links
 {
     color: rgb(90, 42, 32);
@@ -35,11 +41,13 @@ h2 {
     border-radius: 5px; ;
     background-color: rgba(73, 205, 205, 0.804);
 }
+
 .logos
 {
    width:65px;
    margin: 22px;
 }
+
 body {
     background-color: rgba(245, 245, 220, 0.795);
 }
@@ -50,6 +58,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #efeaa1;
+    position: sticky;
   }
   
 .nav li {
@@ -75,14 +84,19 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#intro {
-  width: 700px;
-  text-align: justify;
-}
 #content{
   text-align: justify;
   width: 75%;
 }
 #pictures {
   width:fit-content
+}
+.blogs {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.videos {
+  width: 640px;
+  height: 480px;
 }
