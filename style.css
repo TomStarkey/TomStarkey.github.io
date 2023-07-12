@@ -41,6 +41,9 @@ body {
     background-color: rgba(245, 245, 220, 0.795);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82a02925ce3a27cf0ed9bf4f13efa2003faf9247
 
 ul {
     list-style-type: none;
@@ -70,9 +73,12 @@ ul {
 .active {
     background-color: rgb(41, 106, 26);
     color: rgb(223, 159, 74);
+<<<<<<< HEAD
 }
 =======
 .questionimg {
 width: 80%;
+=======
+>>>>>>> 82a02925ce3a27cf0ed9bf4f13efa2003faf9247
 }
 >>>>>>> 74d8f411b24b59a6b148d1d8d4eff7274d9f02f6
