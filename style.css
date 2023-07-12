@@ -7,6 +7,7 @@ p {
   height: fit-content;
   font-size: 21px;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
     text-align: center;
@@ -26,7 +27,7 @@ h2 {
     color: rgb(90, 42, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
     height: 160px;
-    width: 350px;
+    width: fit-content;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -59,7 +60,7 @@ body {
     display: block;
     color: rgb(90, 71, 2);
     text-align: center;
-    padding: 20px 162px;
+    padding: 20px 200px;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -75,7 +76,7 @@ body {
 }
 
 #intro {
-  width: 500px;
+  width: 700px;
   text-align: justify;
 }
 #content{
