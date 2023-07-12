@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 56;
 }
 p {
@@ -16,13 +16,13 @@ h2 {
     width: 50%;
   }
 .about_me {
-    color: rgba(129, 54, 34, 0.891);
+    color: rgba(90, 42, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .links
 {
-    color: rgb(36, 124, 47);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(90, 42, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
     height: 160px;
     width: 350px;
     padding: 10px;
@@ -37,31 +37,36 @@ h2 {
    width:65px;
    margin: 22px;
 }
-nav{
-    width: screen;
-    height: 60px;
-    background-color: rgba(73, 205, 205, 0.804);
-    border: 3px solid rgb(50, 100, 90);
-    margin-left: 0%;
-    margin-right: 0%;
-}
-.nav_button {
-    width: 50px;
-    height: 35px;
-    border:3px solid rgb(1, 1, 1);
-    border-radius: 20px;
-    background-color:rgb(255, 255, 255);
-    margin-left: 20%;
-    margin-top: 10px;
-    float: left;
-    padding: 2px;
-    font-size: smaller;
-    color: rgb(2, 2, 2);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 body {
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.795);
 }
-.questionimg {
-width: 80%;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efeaa1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(90, 71, 2);
+    text-align: center;
+    padding: 20px 165px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(41, 106, 26);
+    color: rgb(223, 159, 74);
+  }
+
+.active {
+    background-color: rgb(41, 106, 26);
+    color: rgb(223, 159, 74);
 }
