@@ -8,21 +8,23 @@
     <title>About me</title>
 </head>
 <body>
-    <ul>
-        <li><a href="home.html" >Home</a></li>
-        <li><a href="about_me.html" class="active">About me</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="">Projects</a></li>
-    </ul>
+    <div class="nav">
+        <ul>
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="about_me.html" class="active">About me</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="">Projects</a></li>
+        </ul>
+    </div>
     <h1 class="about">About me</h1>
-    <p>Q1 - What is my  favourite fruit?</p>
-    <button onclick="reveal('question1','banana.png')" class="center">
+    <p class="center">Q1 - What is my  favourite fruit?</p>
+    <button onclick="reveal('question1','banana.png')" class="center" id="pictures">
         <script src="switch.js"></script>
         <img id = "question1"  src="question_mark.png" alt="Image not loaded"></img>
     </button>
-    <p>Q2 - What is my favourite programming language?</p>
-    <button onclick="reveal('question2', 'python.png')" class="center">
+    <p class="center">Q2 - What is my favourite programming language?</p>
+    <button onclick="reveal('question2', 'python.png')" class="center" id="pictures">
         <img id = "question2" src="question_mark.png" alt="Image not loaded">
     </button>
     

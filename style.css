@@ -4,7 +4,9 @@ h1 {
     font-size: 56;
 }
 p {
-    text-align: center;
+  height: fit-content;
+  font-size: 21px;
+  text-align: center;
 }
 h2 {
     text-align: center;
@@ -41,7 +43,7 @@ body {
     background-color: rgba(245, 245, 220, 0.795);
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,24 +51,37 @@ ul {
     background-color: #efeaa1;
   }
   
-  li {
+.nav li {
     float: left;
   }
   
-  li a {
+.nav li a {
     display: block;
     color: rgb(90, 71, 2);
     text-align: center;
-    padding: 20px 165px;
+    padding: 20px 162px;
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
-  li a:hover {
+.nav li a:hover {
     background-color: rgb(41, 106, 26);
     color: rgb(223, 159, 74);
   }
 
-.active {
+.nav li a.active {
     background-color: rgb(41, 106, 26);
-    color: rgb(223, 159, 74);
+    color: rgb(255, 255, 255);
+}
+
+#intro {
+  width: 500px;
+  text-align: justify;
+}
+#content{
+  text-align: justify;
+  width: 75%;
+}
+#pictures {
+  width:fit-content
 }
