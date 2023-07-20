@@ -88,8 +88,8 @@ body {
   text-align: justify;
   width: 75%;
 }
-#pictures {
-  width:fit-content
+.pictures {
+  width:fit-content;
 }
 .blogs {
   font-size: 30px;
