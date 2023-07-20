@@ -84,7 +84,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#content{
+.content{
   text-align: justify;
   width: 75%;
 }
